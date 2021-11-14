@@ -1,0 +1,219 @@
+body {
+    background-color: #FAACA8;
+    background-image: linear-gradient(19deg, #FAACA8 0%, #DDD6F3 100%);
+
+
+}
+
+.navigation-bar {
+    position: absolute;
+    width: 1101px;
+    height: 51px;
+    left: 100px;
+    top: 22px;
+}
+
+.Home{
+    position: absolute;
+    width: 180px;
+    height: 65px;
+    left: 0;
+    top: 0;
+    transition-duration: 250ms;
+
+}
+
+.Home:hover{
+    transition-duration: 250ms;
+    background-color: #00ffc2;
+    border-radius: 50% 20% / 10% 40%;
+    top: -10px;
+}
+
+.homepage-Img {
+    position: absolute;
+    width: 50px;
+    height: 50px;
+    left: 0;
+    top: 0;
+}
+.home-text {
+    position: absolute;
+    width: auto;
+    height: auto;
+    left: 50px;
+    top: -10px;
+
+    font-family: Roboto, serif;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 28px;
+    line-height: 33px;
+
+    color: #000000;
+}
+
+.Education{
+    position: absolute;
+    width: 180px;
+    height: 65px;
+    left: 255px;
+    top: 0;
+    transition-duration: 250ms;
+}
+
+.Education:hover{
+    background-color: #00ffc2;
+    border-radius: 50% 20% / 10% 40%;
+    top: -10px;
+}
+
+.education-Img{
+    position: absolute;
+    width: 50px;
+    height: 50px;
+    left: 0;
+    top: 0;
+}
+.education-text{
+    position: absolute;
+    width: auto;
+    height: auto;
+    left: 50px;
+    top: -10px;
+
+    font-family: Roboto, serif;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 28px;
+    line-height: 33px;
+
+    color: #000000;
+}
+
+.Likes{
+    position: absolute;
+    width: 180px;
+    height: 65px;
+    left: 500px;
+    top: 1px;
+
+    transition-duration: 250ms;
+}
+
+.Likes:hover{
+    background-color: #00ffc2;
+    border-radius: 50% 20% / 10% 40%;
+    top: -10px;
+}
+
+.likes-Img{
+    position: absolute;
+    width: 50px;
+    height: 50px;
+    left: 0;
+    top: 0;
+}
+
+.likes-text{
+    position: absolute;
+    width: auto;
+    height: auto;
+    left: 50px;
+    top: -10px;
+
+    font-family: Roboto, serif;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 28px;
+    line-height: 33px;
+
+    color: #000000;
+}
+
+.Projects{
+    position: absolute;
+    width: 180px;
+    height: 65px;
+    left: 693px;
+    top: 1px;
+    transition-duration: 250ms;
+}
+
+.Projects:hover{
+    background-color: #00ffc2;
+    border-radius: 50% 20% / 10% 40%;
+    top: -10px;
+}
+
+.projects-Img{
+    position: absolute;
+    width: 50px;
+    height: 50px;
+    left: 0;
+    top: 0;
+}
+.projects-text{
+    position: absolute;
+    width: 100px;
+    height: auto;
+    left: 50px;
+    top: -10px;
+
+    font-family: Roboto, serif;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 28px;
+    line-height: 33px;
+
+    color: #000000;
+}
+
+.Dream{
+    position: absolute;
+    width: 180px;
+    height: 65px;
+    left: 899px;
+    top: 3px;
+    transition-duration: 250ms;
+}
+
+.Dream:hover{
+    background-color: #00ffc2;
+    border-radius: 50% 20% / 10% 40%;
+    top: -10px;
+}
+
+.dream-Img{
+    position: absolute;
+    width: 50px;
+    height: 50px;
+    left: 0;
+    top: 0;
+}
+.dream-text{
+    position: absolute;
+    width: auto;
+    height: auto;
+    left: 50px;
+    top: -12px;
+
+    font-family: Roboto, serif;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 28px;
+    line-height: 33px;
+
+    color: #000000;
+}
+
+@keyframes slidein {
+    from {
+        margin-left: 100%;
+        width: 300%;
+    }
+    to {
+        margin-left: 0%;
+        width: 100%;
+    }
+}
