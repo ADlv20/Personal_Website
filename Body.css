@@ -1,4 +1,8 @@
 .short-info{
     position: absolute;
     font-size: 28px;
+    width: auto;
+    height: auto;
+    top: 200px;
+    left: 120px;
 }
